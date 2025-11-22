@@ -8,7 +8,10 @@ function App() {
   return (
     <>
      <div className="container flex">
-      <div className='left border'>hy how are you</div>
+      <div className='left border'>
+        <div className="home"></div>
+        <div className="library"></div>
+      </div>
       <div className='right border'>I miss you shivam</div>
      </div>
     </>
