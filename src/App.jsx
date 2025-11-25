@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-     <div className="container flex">
-      <div className='left border bg-black'>
-        <div className="home">
+     <div className="container flex  bg-black">
+      <div className='left  s'>
+        <div className="home bg-grey rounded m-1 p-1">
           <div className="logo">
             <img className="invert"src="spotify.png" alt="" />spotify
           </div>
@@ -20,9 +20,20 @@ function App() {
             <li><img className="invert"src="search.svg" alt="search" />Search</li>
           </ul>
         </div>
-        <div className="library bg-black"></div>
+        <div className="library bg-grey rounded m-1 p-1">
+        <div className="heading">
+          <img className='invert' src="libray.png" alt="" />
+          <h2>your Library</h2>
+        </div>
+        </div>
       </div>
-      <div className='right border'></div>
+      <div className="footer">
+        
+      </div>
+      <div className='right border'>
+
+        sdsdfsdfsd
+      </div>
      </div>
     </>
   )
