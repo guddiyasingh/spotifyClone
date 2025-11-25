@@ -28,7 +28,12 @@ function App() {
         </div>
       </div>
       <div className="footer">
-        
+        <div data-testid = "left-sidebar-legal-links">
+          <div><a href=""></a><span>Legal</span></div>
+          <div><a href=""></a><span>Privacy Center</span></div>
+          <div><a href=""></a><span>Cookies</span></div>
+          <div><a href=""></a><span>About Ads</span></div>
+        </div>
       </div>
       <div className='right border'>
 

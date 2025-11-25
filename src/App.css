@@ -88,3 +88,9 @@ ul li{
     /* width: 100%; */
      align-items: center;
 }
+
+.footer{
+    display: flex;
+    font-size: 10px;
+    color: grey;
+}
