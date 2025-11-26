@@ -21,11 +21,12 @@ body{
 }
  .left{
 
-    width: 25vw;
+    width: 28vw;
     padding: 34px;
  } 
  .right{
     width: 75vw;
+    background-color: grey;
  }
 .flex{
     display: flex;
@@ -96,15 +97,25 @@ ul li{
     min-height: 50vh;
     position: relative;
 }
-.footer{
+ .footer {
     display: flex;
     font-size: 10px;
     color: grey;
-    gap: 13px;
+    gap: 15px;
     position: absolute;
     bottom: 0px;
+
 }
 
 .footer a{
     color: grey;
+} 
+
+.right-arrow{
+    border: purple;
+    width: 19px;
+    margin-bottom: 7px;
 }
+
+ 
+
