@@ -62,12 +62,23 @@ function App() {
         <div className='right border'>
           <div className="header">
             <div className="nav">
-              <img src="left.png" alt="" />
-              <img className="right-arrow" src="right-arrow.png" alt="" />
+              <img className='invert' src="left.png" alt="" />
+              <img  className="right-arrow invert" storke="#ffffff" src="right-arrow.png" alt="" />
             </div>
             <div className="button">
               <button>Login</button>
               <button>Signup</button>
+            </div>
+          </div>
+          <div className="spotifyPlayists">
+            <h1>Spotify Playlists</h1>
+            <div className="cardContainer">
+              <div className="card">
+               <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" class="LBM25IAoFtd0wh7k3EGM bFtVZZnZgTWjjyzkPA5k VPnrctjNWVzCtyD7DZAG PgTMmU2Gn7AESFMYhw4i" srcset="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020 150w, https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020 300w, https://i.scdn.co/image/ab67616d0000b273673219ce701db80780e48020 320w, https://i.scdn.co/image/ab67616d0000b273673219ce701db80780e48020 640w" sizes="(min-width: 1280px) 232px, 192px"></img> 
+              <h2></h2> 
+              <p>Dhurandhar - TItle Track(From...)</p>
+
+              </div>
             </div>
           </div>
         </div>
