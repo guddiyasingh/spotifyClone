@@ -70,14 +70,18 @@ function App() {
               <button>Signup</button>
             </div>
           </div>
-          <div className="spotifyPlayists">
+          <div className="spotifyPlaylists">
             <h1>Spotify Playlists</h1>
             <div className="cardContainer">
-              <div className="card">
-               <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" class="LBM25IAoFtd0wh7k3EGM bFtVZZnZgTWjjyzkPA5k VPnrctjNWVzCtyD7DZAG PgTMmU2Gn7AESFMYhw4i" srcset="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020 150w, https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020 300w, https://i.scdn.co/image/ab67616d0000b273673219ce701db80780e48020 320w, https://i.scdn.co/image/ab67616d0000b273673219ce701db80780e48020 640w" sizes="(min-width: 1280px) 232px, 192px"></img> 
+              <div className="card border">
+               <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt=""sizes="(min-width: 1280px) 232px, 192px"></img> 
               <h2></h2> 
               <p>Dhurandhar - TItle Track(From...)</p>
-
+              </div>
+               <div className="card border">
+               <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt=""sizes="(min-width: 1280px) 232px, 192px"></img> 
+              <h2></h2> 
+              <p>Dhurandhar - TItle Track(From...)</p>
               </div>
             </div>
           </div>
