@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="container flex  bg-black">
-        <div className='left  s'>
+        <div className='left  '>
           <div className="home bg-grey rounded m-1 p-1">
             <div className="logo">
               <img className="invert" src="spotify.png" alt="" />spotify
@@ -25,35 +25,35 @@ function App() {
               <img className='invert' src="libray.png" alt="" />
               <h2>your Library</h2>
               <div className="footer">
-                {/* <div data-testid = "left-sidebar-legal-links"> */}
 
-                
-                  <div><a href="https://www.spotify.com/in-en/legal/"> <span>Legal</span></a>
-                  </div>
-                  <div><a href="https://www.spotify.com/in-en/safetyandprivacy/">
-                    <span>Safety &amp; PrivacyCenter</span> </a>
-                  </div>
-                  <div>
-                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/" ><span>Privacy Policy</span>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span >Cookies</span></a>
-                  </div>
-                  <div>
-                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"  >
-                      <span data-encore-id="type">AboutAds</span>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="https://www.spotify.com/in-en/accessibility/">
-                      <span >Accessibility</span>
-                    </a>
-                  </div>
+
+
+                <div><a href="https://www.spotify.com/in-en/legal/"> <span>Legal</span></a>
+                </div>
+                <div><a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                  <span>Safety &amp; PrivacyCenter</span> </a>
+                </div>
+                <div>
+                  <a href="https://www.spotify.com/in-en/legal/privacy-policy/" ><span>Privacy Policy</span>
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span >Cookies</span></a>
+                </div>
+                <div>
+                  <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"  >
+                    <span data-encore-id="type">AboutAds</span>
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.spotify.com/in-en/accessibility/">
+                    <span >Accessibility</span>
+                  </a>
+                </div>
                 <div> <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/">
                   <span>Cookies</span>
                 </a></div>
-          
+
               </div>
             </div>
           </div>
@@ -62,8 +62,8 @@ function App() {
         <div className='right border'>
           <div className="header">
             <div className="nav">
-              <img className='invert' src="left.png" alt="" />
-              <img  className="right-arrow invert" storke="#ffffff" src="right-arrow.png" alt="" />
+              <img className="left-arrow invert" storke="#ffffff" src="left-arrow.png" alt="" />  
+              <img className="right-arrow invert" storke="#ffffff" src="right-arrow.png" alt="" />
             </div>
             <div className="button">
               <button>Login</button>
@@ -74,14 +74,38 @@ function App() {
             <h1>Spotify Playlists</h1>
             <div className="cardContainer">
               <div className="card border">
-               <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt=""sizes="(min-width: 1280px) 232px, 192px"></img> 
-              <h2></h2> 
-              <p>Dhurandhar - TItle Track(From...)</p>
+                <div className="play">
+
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                    width="40" height="40" viewBox="0 0 200 200" role="img" aria-label="Play button inside green circle">
+
+                    <circle cx="100" cy="100" r="100" fill="#28a745" />
+
+
+                    <defs>
+                      <clipPath id="circleClip">
+                        <circle cx="100" cy="100" r="100" />
+                      </clipPath>
+                    </defs>
+
+
+                    <image href="play-button.png"
+                      x="0" y="0" width="200" height="200"
+                      preserveAspectRatio="xMidYMid meet"
+                      clip-path="url(#circleClip)" />
+
+                    <polygon points="85,70 85,130 140,100" fill="#000" />
+                  </svg>
+
+                </div>
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
               </div>
-               <div className="card border">
-               <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt=""sizes="(min-width: 1280px) 232px, 192px"></img> 
-              <h2></h2> 
-              <p>Dhurandhar - TItle Track(From...)</p>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
               </div>
             </div>
           </div>
