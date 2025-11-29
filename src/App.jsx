@@ -62,7 +62,7 @@ function App() {
         <div className='right border'>
           <div className="header">
             <div className="nav">
-              <img className="left-arrow invert" storke="#ffffff" src="left-arrow.png" alt="" />  
+              <img className="left-arrow invert" storke="#ffffff" src="left.png" alt="" />  
               <img className="right-arrow invert" storke="#ffffff" src="right-arrow.png" alt="" />
             </div>
             <div className="button">
@@ -79,7 +79,7 @@ function App() {
                   <svg xmlns="http://www.w3.org/2000/svg"
                     width="40" height="40" viewBox="0 0 200 200" role="img" aria-label="Play button inside green circle">
 
-                    <circle cx="100" cy="100" r="100" fill="#28a745" />
+                    <circle cx="100" cy="100" r="100" fill="#28a745" border="2px solid #000"/>
 
 
                     <defs>
@@ -107,6 +107,147 @@ function App() {
                 <h2></h2>
                 <p>Dhurandhar - TItle Track(From...)</p>
               </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              <div className="card border">
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              
             </div>
           </div>
         </div>
