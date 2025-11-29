@@ -97,7 +97,12 @@ function App() {
                     <polygon points="85,70 85,130 140,100" fill="#000" />
                   </svg>
 
-                </div>
+                 </div>
+               <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                <h2></h2>
+                <p>Dhurandhar - TItle Track(From...)</p>
+              </div>
+              {/* <div className="card border">
                 <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
                 <h2></h2>
                 <p>Dhurandhar - TItle Track(From...)</p>
@@ -242,12 +247,7 @@ function App() {
                 <h2></h2>
                 <p>Dhurandhar - TItle Track(From...)</p>
               </div>
-              <div className="card border">
-                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
-                <h2></h2>
-                <p>Dhurandhar - TItle Track(From...)</p>
-              </div>
-              
+               */}
             </div>
           </div>
         </div>
