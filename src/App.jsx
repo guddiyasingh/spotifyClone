@@ -66,8 +66,8 @@ function App() {
               <img className="right-arrow invert" storke="#ffffff" src="right-arrow.png" alt="" />
             </div>
             <div className="button">
-              <button>Login</button>
-              <button>Signup</button>
+              <button className='signupbtn'>Signup</button>
+              <button className='loginbtn'>Login</button>
             </div>
           </div>
           <div className="spotifyPlaylists">
