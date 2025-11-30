@@ -123,6 +123,7 @@ ul li{
     display: flex;
     justify-content: space-between;
     background-color: rgb(83, 81, 81);
+    height: 72px;
     /* align-items: center;
     padding: 14px 23px; */
 }
@@ -200,8 +201,11 @@ ul li{
     padding: 10px;
     width: 79px;
     cursor: pointer;
+    border: none;
+    font-size: 16px;
 }
 .loginbtn:hover{
     font-weight: bold;
-    padding: 11px;
+    /* padding: 11px; */
+    font-size: 17px;
 }
