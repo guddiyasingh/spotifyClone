@@ -250,7 +250,9 @@ function App() {
                */}
             </div>
             <div className="playbar">
-              playbar
+              <img src="previous(1).png" alt="" />
+              <img src="play.png" alt="" />
+              <img src="next-button.png" alt="" />
             </div>
           </div>
         </div>
