@@ -20,13 +20,15 @@ body{
     margin: 3px;
 }
  .left{
-
+     
+    
     width: 28vw;
     padding: 34px;
  } 
  .right{
     width: 75vw;
      background-color: rgb(49, 48, 48);
+      position: relative;
  }
 .flex{
     display: flex;
@@ -208,4 +210,12 @@ ul li{
     font-weight: bold;
     /* padding: 11px; */
     font-size: 17px;
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(139, 193, 139);
+    width: 98%;
+    padding: 12px;
 }
