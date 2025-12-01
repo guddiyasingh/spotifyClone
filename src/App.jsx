@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import script from './script'
 import './App.css'
 
 function App() {
@@ -250,14 +251,24 @@ function App() {
                */}
             </div>
             <div className="playbar">
-              <img src="previous(1).png" alt="" />
+              <div className="songinfo">
+
+              </div>
+              <div className="songbutton">
+                <img src="previous(1).png" alt="" />
               <img src="play.png" alt="" />
-              <img src="next-button.png" alt="" />
+              <img src="next-button.png" alt="" /> 
+              </div>
+              <div className="songtime">
+
+              </div>
             </div>
           </div>
         </div>
       </div>
+    <script.jsx/>
     </>
+   
   )
 }
 
