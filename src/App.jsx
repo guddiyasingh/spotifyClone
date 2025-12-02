@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import script from './script'
+// import script from './script'
 import './App.css'
 
 function App() {
@@ -266,7 +266,7 @@ function App() {
           </div>
         </div>
       </div>
-    <script.jsx/>
+    {/* <script.jsx/> */}
     </>
    
   )

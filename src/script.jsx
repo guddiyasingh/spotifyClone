@@ -1,16 +1,17 @@
 import React from 'react'
 
-async function script() {
+ function script() {
   console.log('lets write javascript')
-   let a = await fetch('https://pixabay.com/music/')
-   let response = await a.text()
-   console.log(response)
-  // return (
-  
-  // //   let a = await fetch('https://pixabay.com/music/')
-  // //  let response = await a.text()
-  // //  console.log(response)
-  // )
+  //  let a = await fetch('https://pixabay.com/music/')
+  //  let response = await a.text()
+  //  console.log(response)
+   return (
+   async function fetchData() {
+     let a = await fetch('https://pixabay.com/music/')
+     let response = await a.text()
+     console.log(response)
+   }
+   )
 }
 
 export default script
