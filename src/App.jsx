@@ -1,5 +1,6 @@
 import { useState } from 'react'
 // import script from './script'
+import songs1 from './songs1.jsx'
 import PlaylistPlayer from "./PlaylistPlayer";
 import './App.css'
 
@@ -268,6 +269,7 @@ function App() {
         </div>
       </div>
     {/* <script.jsx/> */}
+    <songs1.jsx/>
     <PlaylistPlayer/>
     </>
    
