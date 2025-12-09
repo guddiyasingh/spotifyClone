@@ -2,7 +2,7 @@ console.log('Lets write javascript');
 
 async function getSongs() {
 
-    let a = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+    let a = await fetch('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
     let response = await a.json();
     console.log(response);
     let div = document.createElement('div')
