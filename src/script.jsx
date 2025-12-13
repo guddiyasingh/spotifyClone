@@ -11,6 +11,7 @@ import React from 'react'
      let response = await a.text()
      console.log(response)
    }
+   function main (())
    )
 }
 
