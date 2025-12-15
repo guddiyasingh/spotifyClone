@@ -1,7 +1,7 @@
 import { useState } from 'react'
 // import script from './script'
 // import songs1 from './songs1.jsx'
-import PlaylistPlayer from "./PlaylistPlayer";
+// import PlaylistPlayer from "./PlaylistPlayer";
 import './App.css'
 
 function App() {
@@ -27,9 +27,12 @@ function App() {
             <div className="heading">
               <img className='invert' src="libray.png" alt="" />
               <h2>your Library</h2>
-              <ul>
-                
+              <div className="songlist">
+                  <ul>
+                <li>song name</li>
               </ul>
+              </div>
+            
               <div className="footer">
 
 
@@ -128,7 +131,7 @@ function App() {
       </div>
     {/* <script.jsx/> */}
     {/* <songs1.jsx/> */}
-    <PlaylistPlayer/>
+    {/* <PlaylistPlayer/> */}
     </>
    
   )
