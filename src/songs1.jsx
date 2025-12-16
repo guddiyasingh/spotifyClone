@@ -2,20 +2,12 @@ console.log('Lets write javascript');
 
 async function getSongs() {
 
-    let a = await fetch('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
+    let a = await fetch('https://www.theaudiodb.com/api/v1/json/123/search.php?s=coldplay');
     let response = await a.json();
     console.log(response);
     let div = document.createElement('div')
     div.innerHTML =response;
-    let as = div.getElementsByTagName('a');
-    let songs = [];
-    for (let index =0; index < as.length; index++) {
-        const element = as[index];
-        if(element.href.endsWith('mp3')){
-            songs.push(element.href);
-        }
+   let tds = div.getElementsByTagName('td')
     }
-    return songs
-}
-
-main()
+ 
+getSongs()

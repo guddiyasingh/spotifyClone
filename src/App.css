@@ -227,3 +227,9 @@ ul li{
     align-items: center;
     gap: 25px;
 }
+.songList ul {
+    padding: 0 42px;
+}
+.songList ul li {
+    list-style-type: decimal;
+}
