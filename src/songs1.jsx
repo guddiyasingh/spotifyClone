@@ -8,6 +8,7 @@ async function getSongs() {
     let div = document.createElement('div')
     div.innerHTML =response;
    let tds = div.getElementsByTagName('td')
+    console.log(tds);
     }
  
 getSongs()
