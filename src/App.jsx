@@ -31,6 +31,7 @@ function App() {
             <div className="songList">
               <ul>
                 <li>
+                  <img src="musical-note.png" alt="" />
                    song name
                 </li>
               </ul>
