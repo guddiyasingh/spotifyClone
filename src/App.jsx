@@ -1,11 +1,23 @@
 // import { useState } from 'react'
-import  Script from './Script'
-// import songs1 from './songs1.jsx'
+// import  Script from './Script'
+import Songs1 from './Songs1.jsx'
+import { useState, useRef } from "react"
+import Songs from "./Songs.js"
+
 // import PlaylistPlayer from "./PlaylistPlayer";
 import './App.css'
 
 function App() {
 
+  const [currentSong, setCurrentSong] = useState(null)
+  const audioRef = useRef(null)
+
+  const playSong = (song) => {
+    setCurrentSong(song)
+    setTimeout(() => {
+      audioRef.current.play()
+    }, 0)
+  }
 
 
   return (
@@ -27,54 +39,57 @@ function App() {
             <div className="heading">
               <img className='invert' src="libray.png" alt="" />
               <h2>your Library</h2>
-         </div>
+            </div>
             <div className="songList">
               <ul>
-                <li>
-                  <img src="musical-note.png" alt="" />
-                   song name
-                </li>
+                {Songs.map(song => (
+                  <li key={song.id} onClick={() => playSong(song)}>
+                    <img src="musical-note.png" alt="" />
+                    {song.title}
+                  </li>
+                ))}
               </ul>
             </div>
-              <div className="footer">
+
+            <div className="footer">
 
 
 
-                <div><a href="https://www.spotify.com/in-en/legal/"> <span>Legal</span></a>
-                </div>
-                <div><a href="https://www.spotify.com/in-en/safetyandprivacy/">
-                  <span>Safety &amp; PrivacyCenter</span> </a>
-                </div>
-                <div>
-                  <a href="https://www.spotify.com/in-en/legal/privacy-policy/" ><span>Privacy Policy</span>
-                  </a>
-                </div>
-                <div>
-                  <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span >Cookies</span></a>
-                </div>
-                <div>
-                  <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"  >
-                    <span data-encore-id="type">AboutAds</span>
-                  </a>
-                </div>
-                <div>
-                  <a href="https://www.spotify.com/in-en/accessibility/">
-                    <span >Accessibility</span>
-                  </a>
-                </div>
-                <div> <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/">
-                  <span>Cookies</span>
-                </a></div>
-
+              <div><a href="https://www.spotify.com/in-en/legal/"> <span>Legal</span></a>
               </div>
-            
+              <div><a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                <span>Safety &amp; PrivacyCenter</span> </a>
+              </div>
+              <div>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/" ><span>Privacy Policy</span>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span >Cookies</span></a>
+              </div>
+              <div>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"  >
+                  <span data-encore-id="type">AboutAds</span>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.spotify.com/in-en/accessibility/">
+                  <span >Accessibility</span>
+                </a>
+              </div>
+              <div> <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/">
+                <span>Cookies</span>
+              </a></div>
+
+            </div>
+
           </div>
 
         </div>
         <div className='right border'>
           <div className="header">
             <div className="nav">
-              <img className="left-arrow invert" storke="#ffffff" src="left.png" alt="" />  
+              <img className="left-arrow invert" storke="#ffffff" src="left.png" alt="" />
               <img className="right-arrow invert" storke="#ffffff" src="right-arrow.png" alt="" />
             </div>
             <div className="button">
@@ -91,7 +106,7 @@ function App() {
                   <svg xmlns="http://www.w3.org/2000/svg"
                     width="40" height="40" viewBox="0 0 200 200" role="img" aria-label="Play button inside green circle">
 
-                    <circle cx="100" cy="100" r="100" fill="#28a745" border="2px solid #000"/>
+                    <circle cx="100" cy="100" r="100" fill="#28a745" border="2px solid #000" />
 
 
                     <defs>
@@ -109,34 +124,42 @@ function App() {
                     <polygon points="85,70 85,130 140,100" fill="#000" />
                   </svg>
 
-                 </div>
-               <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
+                </div>
+                <img src="https://i.scdn.co/image/ab67616d00001e02673219ce701db80780e48020" alt="" sizes="(min-width: 1280px) 232px, 192px"></img>
                 <h2></h2>
                 <p>Dhurandhar - TItle Track(From...)</p>
               </div>
-             
+
             </div>
             <div className="playbar">
               <div className="songinfo">
-                
+                {currentSong ? currentSong.title : "Select a song"}
               </div>
-              <div className="songbutton">
-                <img src="previous(1).png" alt="" />
-              <img src="play.png" alt="" />
-              <img src="next-button.png" alt="" /> 
-              </div>
-              <div className="songtime">
 
+              <div className="songbutton">
+                <img src="previous(1).png" alt="prev" />
+                <img
+                  src="play.png"
+                  alt="play"
+                  onClick={() => audioRef.current.play()}
+                />
+                <img src="next-button.png" alt="next" />
               </div>
+
+              <div className="songtime"></div>
+
+              <audio ref={audioRef} src={currentSong?.file}></audio>
             </div>
+
           </div>
         </div>
       </div>
-    <Script/>
-    {/* <songs1.jsx/> */}
-    {/* <PlaylistPlayer/> */}
+      {/* <Script/> */}
+      <Songs1 />
+      <Songs />
+      {/* <PlaylistPlayer/> */}
     </>
-   
+
   )
 }
 
