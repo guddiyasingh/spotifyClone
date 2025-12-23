@@ -144,6 +144,15 @@ ul li{
      /* border: 2px solid red; */
  
  }
+
+.container {
+  display: flex;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+
  .cardContainer{
     margin: 10px;
     display: flex;
@@ -232,4 +241,12 @@ ul li{
 }
 .songList ul li {
     list-style-type: decimal;
+    color: white;
+  list-style: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.songList li:hover {
+  background-color: #222;
 }
