@@ -1,8 +1,8 @@
 // import { useState } from 'react'
 // import  Script from './Script'
-// import Songs1 from './Songs1.jsx'
+import Songs1 from './Songs1'
 import { useState, useRef } from "react"
-import Songs from "./Songs.js"
+// import Songs from "./Songs"
 
 // import PlaylistPlayer from "./PlaylistPlayer";
 import './App.css'
@@ -42,7 +42,7 @@ function App() {
             </div>
             <div className="songList">
               <ul>
-                {Songs.map(song => (
+                {Songs1.map(song => (
                   <li key={song.id} onClick={() => playSong(song)}>
                     <img src="musical-note.png" alt="" />
                     {song.title}
@@ -155,8 +155,8 @@ function App() {
         </div>
       </div>
       {/* <Script/> */}
-      {/* <Songs1 /> */}
-      <Songs />
+      <Songs1 />
+      {/* <Songs /> */}
       {/* <PlaylistPlayer/> */}
     </>
 

@@ -1,12 +1,16 @@
 import React from 'react'
+import songs from "./songs"
 
-const songs = [
+
+
+function Songs1() {
+
+  const songs = [
   { title: 'Song One', file: '/songs/song1.mp3' },
   { title: 'Song Two', file: '/songs/song2.mp3' },
   { title: 'Song Three', file: '/songs/song3.mp3' }
 ]
 
-function songs1() {
   return (
       <div>
       <h2>Playlist</h2>
@@ -16,8 +20,9 @@ function songs1() {
           <audio controls src={song.file} />
         </div>
       ))}
+      <songs />
     </div>
   )
 }
 
-export default songs1
+export default Songs1
