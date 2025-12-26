@@ -22,11 +22,11 @@ body{
  .left{
      
 
-    width: 28vw;
+    width: 30vw;
     padding: 34px;
  } 
  .right{
-    width: 75vw;
+    width: 100vw;
      background-color: rgb(49, 48, 48);
       /* position: relative; */
       height: 100vh;
@@ -148,8 +148,8 @@ ul li{
 .container {
   display: flex;
   background-color: black;
-  color: white;
-  min-height: 100vh;
+  /* color: white; */
+  /* min-height: 100vh; */
 }
 
 

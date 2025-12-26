@@ -5,11 +5,11 @@ import songs from "./songs"
 
 function Songs1() {
 
-  const songs = [
-  { title: 'Song One', file: '/songs/song1.mp3' },
-  { title: 'Song Two', file: '/songs/song2.mp3' },
-  { title: 'Song Three', file: '/songs/song3.mp3' }
-]
+//   const songs = [
+//   { title: 'Song One', file: '/songs/song1.mp3' },
+//   { title: 'Song Two', file: '/songs/song2.mp3' },
+//   { title: 'Song Three', file: '/songs/song3.mp3' }
+// ]
 
   return (
       <div>

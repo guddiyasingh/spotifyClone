@@ -1,10 +1,5 @@
-// import { useState } from 'react'
-// import  Script from './Script'
-import Songs1 from './Songs1'
 import { useState, useRef } from "react"
-// import Songs from "./Songs"
-
-// import PlaylistPlayer from "./PlaylistPlayer";
+import songs from "./songs"
 import './App.css'
 
 function App() {
@@ -22,7 +17,7 @@ function App() {
 
   return (
     <>
-      <div className="container">
+      <div className="container ">
         <div className='left  '>
           <div className="home bg-grey rounded m-1 p-1">
             <div className="logo">
@@ -42,7 +37,7 @@ function App() {
             </div>
             <div className="songList">
               <ul>
-                {Songs1.map(song => (
+                {songs.map(song => (
                   <li key={song.id} onClick={() => playSong(song)}>
                     <img src="musical-note.png" alt="" />
                     {song.title}
@@ -154,13 +149,17 @@ function App() {
           </div>
         </div>
       </div>
-      {/* <Script/> */}
-      <Songs1 />
-      {/* <Songs /> */}
-      {/* <PlaylistPlayer/> */}
+     
     </>
 
   )
 }
 
+
+
+
 export default App
+
+
+
+
