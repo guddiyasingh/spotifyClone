@@ -33,6 +33,28 @@ const songs = [
     id: 6,
     title: "Song Six",
     file: "/songs/song6.mp3"
+  },
+   {
+    id: 7,
+    title: "Song Seven",
+    file: "/songs/song7.mp3"
+  },
+   {
+    id: 8,
+    title: "Song Eight",
+    file: "/songs/song8.mp3"
+  },
+
+  {
+    id: 9,
+    title: "Song Nine",
+    file: "/songs/song9.mp3"
+  },
+
+  {
+    id: 10,
+    title: "Song Ten",
+    file: "/songs/song10.mp3"
   }
 
 ]
